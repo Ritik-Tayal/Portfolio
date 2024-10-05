@@ -10,7 +10,7 @@ body{
     line-height: 1.6;
 }
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -106,4 +106,31 @@ header {
     font-size: 2rem;
     margin: 10px 0;
     color: #000;
+}
+.skills{
+    background-color: #121212;
+    color:whitesmoke;
+    text-align: center;
+}
+.skills h2{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+#flexbox{
+    display:flex;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-1{
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+    border: 3px grey solid;
+    padding 50px
+    border-radius: 50%;
+}
+.skill-1 h3{
+    font-size: 1.5rem;
 }

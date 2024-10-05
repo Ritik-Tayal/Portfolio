@@ -130,9 +130,16 @@ header {
     margin-left: 30px;
     margin-bottom: 30px;
     border: 3px grey solid;
+    transition: 1s;
 }
 .skill-1 h3{
     font-size: 1.5rem;
+}
+
+.skill-1:hover{
+    color: #0066ff;
+    border-color: aliceblue;
+    transform: scale(1.1);
 }
 section{
     width: 100%;

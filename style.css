@@ -8,13 +8,15 @@ body{
     background-color: whitesmoke;
     color: #000f;
     line-height: 1.6;
+    width: 100%;
 }
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
-.poi h1{
+/* .poi h1{
     text-decoration: underline;
     color: #ededed;
     font-size: 3rem;
@@ -24,7 +26,7 @@ nav{
     display: flex;
     justify-content: center;
     background-color: #121212;
-}
+} */
 .intro {
     background-size: 100%;
     text-align: left;
@@ -116,7 +118,6 @@ header {
 }
 .skills h2{
     font-size: 3rem;
-    text-decoration: underline;
 }
 #flexbox{
     display:flex;
@@ -132,6 +133,7 @@ header {
     margin-bottom: 30px;
     border: 3px grey solid;
     transition: 1s;
+    padding: 10px;
 }
 .skill-1 h3{
     font-size: 1.5rem;
@@ -150,6 +152,7 @@ section{
     color: whitesmoke;
     text-align: center;
     font-size: 1.5rem;
+    padding-top: 25px;
 
 }
 .profiles{
@@ -162,11 +165,16 @@ section{
 .profile-img{
     height:70px;
     margin:20px;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+.profile-img:hover{
+    transform: scale(1.2);
 }
 
 
 .navbar{
-    background-color: rgba(18,18,18,0.5);
+    background-color: rgba(18,18,18,0.3);
     position: fixed;
     top:0px;
     width: 100%;
@@ -192,23 +200,43 @@ section{
 }
 .FeedbackForm h3{
     color: whitesmoke;
+    margin-top: 10px;
     font-size: 2rem;
+    margin-bottom: 50px;
 }
 input{
     height: 30px;
     margin: 20px;
 }
 textarea{
-    width: 50%;
-    height: 80px;
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
     text-align: center;
 }
 #submit{
-    background-color: #0066ff;
+    background-color: rgba(18,18,18,0.5);
     height: 50px;
     width: 200px;
     font-size: 2rem;
     color:whitesmoke;
+}
+form{
+    text-align: center;
+}
+.message{
+    display: inline-block;
+    text-align: center;
+}
+#message1{
+    position: relative;
+    bottom: 15px;
+    padding-right: 10px;
+}
+.footer{
+    background-color: #121212;
+    text-align: center;
+    color: whitesmoke;
 }
 
 
@@ -237,6 +265,11 @@ textarea{
     }
     .skill-1{
         width: 50%;
+    }
+    .navbar{
+        display: flex;
+        width: 90%;
+
     }
 
 }

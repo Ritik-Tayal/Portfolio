@@ -156,6 +156,14 @@ section{
     margin:20px;
 }
 
+.poi a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:#0066ff;
+    padding: 10px;
+
+}
+
 .FeedbackForm{
     padding-top: 20px;
     background-color: #121212;
@@ -173,14 +181,16 @@ input{
     margin: 20px;
 }
 textarea{
-    height: 40px;
+    width: 50%;
+    height: 80px;
+    text-align: center;
 }
 #submit{
     background-color: #0066ff;
     height: 50px;
     width: 200px;
     font-size: 2rem;
-    color: whitesmoke;
+    color:whitesmoke;
 }
 
 
@@ -210,4 +220,5 @@ textarea{
     .skill-1{
         width: 50%;
     }
+
 }

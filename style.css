@@ -111,6 +111,7 @@ header {
     background-color: #121212;
     color:whitesmoke;
     text-align: center;
+    height: 100%;
 }
 .skills h2{
     font-size: 3rem;
@@ -133,4 +134,25 @@ header {
 }
 .skill-1 h3{
     font-size: 1.5rem;
+}
+section{
+    width: 100%;
+}
+.profs{
+    background-color: #121212;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.profiles{
+    background-color: #121212;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img{
+    height:70px;
+    margin:20px;
 }

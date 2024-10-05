@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #E0E0E0;
+}
+body{
+    background-color: #1C1C1E;
+}
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    margin-top: 1rem;
+    width: 24rem;
+    display: flex;
+    height: 3rem;
+    position: fixed;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: rgb(51, 51, 51,0.5);
+    border: 1px darkslategrey solid;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-left: 25px;
+    font-size: large;
+}
